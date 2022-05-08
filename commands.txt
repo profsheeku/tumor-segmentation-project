@@ -1,0 +1,15 @@
+cd and paste the path of project
+git config --global user.name Shivam
+git config --global user.email
+git config --global user.name "profsheeku"
+touch .gitignore
+git init
+git add .
+git commit -m "Initial commit"
+git status//to check whether our project is ready or not
+on branch master/main
+code is ready working clean
+ssh-keygen -t rsa -b -c "your-email@example.com"
+tail <path to id_rsa.pub> #add this key to your github account
+git remote origin master or main
+git puch origin master
