@@ -1,0 +1,21 @@
+//- layout.pug
+doctype html
+html
+  head
+    title my web
+    block scripts
+    block style
+      
+  body
+    block content
+    nav#navbar.top
+     ul
+        div#logo
+           img(src="/static/brain.png", alt=" oops")
+           | logo
+        li #[a(href="/") home ]
+        li #[a(href="/") about ]
+        li #[a(href="/") contact ]
+        li #[a(href="/") services]
+    footer#footer 
+    | copyright @shivam singh 2022 tumor segmentation diagonosis.com | all rights reserved

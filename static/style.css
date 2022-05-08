@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,500&display=swap');
+*{
+    
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+#navbar{
+     background-color: red;
+     height: 48px;
+}
+#navbar li a{
+    text-decoration: none;
+    margin:30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    
+}
+#navbar li{
+    list-style: none;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: black;
+    height: 50px;
+
+}
+#logo{
+     display: flex;
+     color: white;
+     align-items: center;
+     margin: -60px 20px;
+     height: -4px;
+
+}
+#logo img{
+    filter: invert(1);
+    height: 40px;
+    width:40px;
+}
+#introsection{
+     background-color: green;
+     height: 150px;
+     justify-content: center;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     background: center/cover no-repeat url(./static/navbar.jpg);
+}
+#introsection div{
+    color: blueviolet;
+}
+#introsection h2{
+    font-size: large;
+    color: aquamarine;
+    text-align: center;
+    margin: 100px 51px;
+    padding-left: 10px;
+    padding-right: 15px;
+
+}
+#cnn{
+   background-color: blue;
+   height: 350px;
+   background: center/cover no-repeat url(./static/bulb.jpg);
+
+}
+
+#cnn div{
+    color: azure;
+}
+#algorthimintro{
+   background-color:  grey;
+   height: 150px;
+}
+#footer{
+   background-color: rgb(24, 60, 60);
+   height: 150px;
+}
+.myform{
+      display: flex;
+      margin: 1px 1px;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+}
+.myinput{
+    width: 250px;
+    outline: none;
+    border-radius: 4px;
+    border:2px solid red;
+    margin :2px 2px;
+    padding: 3px;
+
+}
+.btn{
+    background-color: red;
+}
